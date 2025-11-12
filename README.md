@@ -1,4 +1,4 @@
-# 📊 Advance Analytics – Global Tourism Project
+# 📊 Advanced Analytics – Global Tourism Project
 
 *Advanced SQL analytics using window functions and CTEs to explore global tourism performance, segmentation, and country shares.*
 
@@ -7,7 +7,7 @@ This repository represents the **final step** of the **Global Tourism Statistics
 [Exploratory Data Analysis (EDA)](https://github.com/Daniele1388/EDA---Global-Tourism-Project) phases.  
 
 While the DWH provides the **data architecture** and the EDA ensures **data quality and consistency**,  
-this **Advance Analytics** layer focuses on extracting **insights and patterns** from the Gold Layer  
+this **Advanced Analytics** layer focuses on extracting **insights and patterns** from the Gold Layer  
 through advanced SQL modeling, performance metrics, and segmentation logic.
 
 ---
