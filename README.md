@@ -102,6 +102,7 @@ Together, these techniques ensure both **transparency and analytical power**, fo
 
 ## 📂 Repository Structure
 
+```
 ADVANCE-ANALYTICS---Global-Tourism-Project/
 │
 ├── sql_scripts/
@@ -119,6 +120,7 @@ ADVANCE-ANALYTICS---Global-Tourism-Project/
 │ ├── 📊 Segment Tier.md
 │
 └── README.md
+```
 
 ---
 
