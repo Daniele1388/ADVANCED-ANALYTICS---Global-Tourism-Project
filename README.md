@@ -82,7 +82,7 @@ Together, these techniques ensure both **transparency and analytical power**, fo
 
 ## 📚 Example Insights
 
-- Italy and Spain rank among **Top 5 Global Markets** by total arrivals.  
+- France is the top country for total inbound arrivals in the dataset (1995–2022). 
 - The **Cumulative Analysis** confirms a steady growth trend from 1995–2019 before the 2020 drop.  
 - **Performance Analysis** identifies “High” and “Low” performance years vs. average historical trends.  
 - The **Part-to-Whole module** highlights each country’s relative weight within global inbound and outbound tourism.  
