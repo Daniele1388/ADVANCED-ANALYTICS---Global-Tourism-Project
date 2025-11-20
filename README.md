@@ -94,7 +94,7 @@ Together, these techniques ensure both **transparency and analytical power**, fo
 ## 🛠️ Tools & Environment
 
 - **Microsoft SQL Server (T-SQL)** — Main analytical engine.  
-- **Draw.io** — Diagram design (`Advance_Analytics.png`).  
+- **Draw.io** — Diagram design (`Advanced_Analytics.png`).  
 - **GitHub** — Version control and documentation.  
 - *(Optional)* Power BI for visualization.
 
