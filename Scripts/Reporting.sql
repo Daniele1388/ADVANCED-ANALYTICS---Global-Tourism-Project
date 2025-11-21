@@ -164,12 +164,12 @@ RETURN
 );
 GO
 
-========================================================================
 /*
+========================================================================
 Example: rank countries for the inbound 'VOLUME & DEMAND' segment.
-Tip: add ORDER BY Country_seg_total DESC in the outer SELECT if needed.
-*/
+Tip: add ORDER BY Country_seg_total DESC in the outer SELECT if needed.
 ========================================================================
+*/
 
 SELECT
 	*
