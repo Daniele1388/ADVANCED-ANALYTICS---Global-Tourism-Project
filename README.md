@@ -1,4 +1,4 @@
-# 📊 Advanced Analytics – Global Tourism Project
+# Advanced Analytics – Global Tourism Project
 
 *Advanced SQL analytics using window functions and CTEs to explore global tourism performance, segmentation, and country shares.*
 
@@ -12,7 +12,7 @@ through advanced SQL modeling, performance metrics, and segmentation logic.
 
 ---
 
-## 📦 Data Source Dependency
+## Data Source Dependency
 
 All scripts in this repository depend on the **Gold Layer** of the [Global Tourism Data Warehouse](https://github.com/Daniele1388/DWH---Global-Tourism-Project).  
 
@@ -24,7 +24,7 @@ This repository also complements the [Exploratory Data Analysis (EDA)](https://g
 
 ---
 
-## 🧭 Analytical Framework
+## Analytical Framework
 
 The analytical model follows a modular, multi-layered approach to evaluate tourism performance and segmentation over time.  
 
@@ -41,7 +41,7 @@ Each module is parameterized and reusable, supporting dynamic execution via `sp_
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 The goal of this repository is to:
 
@@ -52,35 +52,35 @@ The goal of this repository is to:
 
 ---
 
-## 🧩 Analytical Modules
+## Analytical Modules
 
 All scripts are written in **T-SQL**, fully documented, and organized by analytical type.
 
 | Category | Description |
 |-----------|-------------|
-| ⏱️ **Change Over Time** | Calculates year-over-year change and percentage growth using `LAG()` and arithmetic comparisons. |
-| 📈 **Cumulative Analysis** | Uses window functions (`SUM() OVER`, `AVG() OVER`) to track running totals and averages. |
-| ⚙️ **Performance Analysis** | Compares actual values vs. long-term averages to flag “Above/Below Average” years. |
-| 🧮 **Part-to-Whole Analysis** | Calculates each country’s percentage contribution to total global tourism values. |
-| 🧠 **Data Segmentation** | Groups indicators into macro-segments (Volume, Capacity, Economic, Transport, Source Markets) and computes their global share. |
-| 🧾 **Reporting & Tier Classification** | Creates a unified tourism view (`vw_fact_tourism_all`) and a reusable function `fn_segment_tier()` to calculate country shares, assign segment tiers (5% / 1% / 0.2%), and enable consolidated reporting across all fact tables. |
+| **Change Over Time** | Calculates year-over-year change and percentage growth using `LAG()` and arithmetic comparisons. |
+| **Cumulative Analysis** | Uses window functions (`SUM() OVER`, `AVG() OVER`) to track running totals and averages. |
+| **Performance Analysis** | Compares actual values vs. long-term averages to flag “Above/Below Average” years. |
+| **Part-to-Whole Analysis** | Calculates each country’s percentage contribution to total global tourism values. |
+| **Data Segmentation** | Groups indicators into macro-segments (Volume, Capacity, Economic, Transport, Source Markets) and computes their global share. |
+| **Reporting & Tier Classification** | Creates a unified tourism view (`vw_fact_tourism_all`) and a reusable function `fn_segment_tier()` to calculate country shares, assign segment tiers (5% / 1% / 0.2%), and enable consolidated reporting across all fact tables. |
 
 ---
 
-## 🧠 Insights & Methodology
+## Insights & Methodology
 
 Each analytical query follows a **structured, reusable workflow**:
 
-- 🧱 **CTEs (Common Table Expressions)** to create logical computation stages.  
-- 📊 **Window functions** for ranking, cumulative sums, and moving averages.  
-- ⚙️ **Dynamic SQL** for flexible parameterization (`@Country`, `@Indicator`, `@Units`).  
-- 🔍 **Comparative metrics** for share, growth, and performance classification.  
+-  **CTEs (Common Table Expressions)** to create logical computation stages.  
+-  **Window functions** for ranking, cumulative sums, and moving averages.  
+-  **Dynamic SQL** for flexible parameterization (`@Country`, `@Indicator`, `@Units`).  
+-  **Comparative metrics** for share, growth, and performance classification.  
 
 Together, these techniques ensure both **transparency and analytical power**, forming a bridge between SQL-based computation and BI visualization.
 
 ---
 
-## 📚 Example Insights
+## Example Insights
 
 - France is the top country for total inbound arrivals in the dataset (1995–2022). 
 - The **Cumulative Analysis** confirms a steady growth trend from 1995–2019 before the 2020 drop.  
@@ -91,7 +91,7 @@ Together, these techniques ensure both **transparency and analytical power**, fo
 
 ---
 
-## 🛠️ Tools & Environment
+## Tools & Environment
 
 - **Microsoft SQL Server (T-SQL)** — Main analytical engine.  
 - **Draw.io** — Diagram design (`Advanced_Analytics.png`).  
@@ -100,7 +100,7 @@ Together, these techniques ensure both **transparency and analytical power**, fo
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 ADVANCE-ANALYTICS---Global-Tourism-Project/
@@ -116,29 +116,29 @@ ADVANCE-ANALYTICS---Global-Tourism-Project/
 ├── docs/
 │ ├── Advance_Analytics.png
 │ ├── Advance Analytics.drawio
-│ ├── 🧠 Tourism Indicator Segmentation.md
-│ ├── 📊 Segment Tier.md
+│ ├── Tourism Indicator Segmentation.md
+│ ├── Segment Tier.md
 │
 └── README.md
 ```
 
 ---
 
-## 📈 Next Steps
+## Next Steps
 
 - [ ] Implement **Power BI dashboards** connected to the Gold Layer for interactive visualization of key tourism metrics and analytical outputs.
 
 ---
 
-## 🧾 License
+## License
 
 This repository is part of the **Global Tourism Statistics** ecosystem and released under the **MIT License**.  
 
 ---
 
-## 🌟 About Me
+## About Me
 
-Hi, I’m **Daniele Amoroso** 👋  
+Hi, I’m **Daniele Amoroso** 
 HR Generalist transitioning into **Data Analytics and Data Science**, with a focus on **SQL, Python, and AI-driven analytics**.  
 
 I’m building end-to-end portfolio projects that connect business understanding with data-driven storytelling.  
