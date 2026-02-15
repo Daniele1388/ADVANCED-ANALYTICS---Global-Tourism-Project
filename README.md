@@ -138,9 +138,8 @@ This repository is part of the **Global Tourism Statistics** ecosystem and relea
 
 ## About Me
 
-Hi, I’m **Daniele Amoroso** 
-HR Generalist transitioning into **Data Analytics and Data Science**, with a focus on **SQL, Python, and AI-driven analytics**.  
-
-I’m building end-to-end portfolio projects that connect business understanding with data-driven storytelling.  
+Hi, I’m **Daniele Amoroso**   
+I like working with data and I’m interested in Data Analytics, Data Science, and AI Automation. 
+I build data projects to understand information and find insights.
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/daniele-a-080786b7/).
