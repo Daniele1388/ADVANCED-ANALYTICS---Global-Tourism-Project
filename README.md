@@ -126,7 +126,10 @@ ADVANCE-ANALYTICS---Global-Tourism-Project/
 
 ## Next Steps
 
-- [ ] Implement **Power BI dashboards** connected to the Gold Layer for interactive visualization of key tourism metrics and analytical outputs.
+- [ ] Implement **Jupyter Notebook** connected to the Gold Layer for visualization of key tourism metrics and analytical outputs.
+  - Use sqlalchemy for connecting to SQL Server
+  - Use pandas and numpy for data querying
+  - Use matplotlib/pyplot for interactive charts
 
 ---
 
