@@ -129,7 +129,7 @@ ADVANCE-ANALYTICS---Global-Tourism-Project/
 - [ ] Implement **Jupyter Notebook** connected to the Gold Layer for visualization of key tourism metrics and analytical outputs.
   - Use sqlalchemy for connecting to SQL Server
   - Use pandas and numpy for data querying
-  - Use matplotlib/pyplot for interactive charts
+  - Use matplotlib/pyplot for visualization
 
 ---
 
